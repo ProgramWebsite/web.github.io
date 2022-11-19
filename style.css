@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: rgb(8, 48, 32);
+    height: 260px;
+}
+
+.banner h1{
+    padding-top: 3%;
+    margin-left: 20%;
+    font: 250% sans-serif;
+    color: aqua; text-shadow: aqua 0.1em 0.1em 0.5em
+}
+
+.banner h3{
+    margin-left: 27.3%;
+    padding-top: 1%;
+    font: 150% sans-serif;
+    color: aqua; text-shadow: aqua 0.1em 0.1em 0.5em
+}
+
+.banner p{
+    padding-top: 5%;
+    margin-left: 5%;
+    font: 100% sans-serif;
+    color: rgb(0, 255, 149); text-shadow: rgba(0, 255, 149) 0.1em 0.1em 0.5em
+}
+
+.banner hr{
+    width: 15%;
+    margin-left: 3.5%;
+    color: rgb(0, 255, 149); text-shadow: rgba(0, 255, 149) 0.1em 0.1em 0.5em
+}
+
+.banner img{
+    margin-left: 58%;
+    margin-top: -15%;
+    width: 20%;
+    border-radius: 5%;
+}
+
+.image2 img{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.info p{
+    width: 45%;
+    margin-left: 40%;
+    margin-top: -18%;
+    font: 120% Arial;
+    line-height: 30px;
+}
+
+.galery{
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+.galery img{
+    width: 30%;
+    padding: 12px 12px; 
+}
+
+
+.fin{
+    margin-top: 8%;
+    margin-left: 12%;
+    height: 200px;
+}
+
+.fin p{
+    font: 100% Arial;
+}
+
+.fin h2{
+    font: 150% Arial;
+    font-weight: 700;
+    padding-top: 1%;
+}
+
+.fin a{
+    display: block;
+    font: 100% Arial;
+    width: 8.2%;
+    padding: 15px 30px;
+    margin-top: 2%;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+}
+
+.fin h3{
+    margin-left: 35%;
+    width: 50%;
+    margin-top: -12%;
+    font: 105% Arial;
+    line-height: 25px;
+}
+
+@media screen and (max-width:500px) {
+    .banner h1{
+        margin-left: 12%;
+    }
+
+    .banner h3{
+        margin-left: 35.5%;
+    }
+
+    .banner .image{
+        margin-top: -18.5%;
+    }
+
+    .banner img{
+        margin-left: 35%;
+        width: 35%;
+    }
+
+    .banner p{
+        padding-top: 32%;
+    }
+
+    .banner hr{
+        margin-left: 2%;
+        width: 45%;
+        color: rgb(0, 255, 149); text-shadow: rgba(0, 255, 149) 0.1em 0.1em 0.5em
+
+    }
+
+    .image2 img{
+        width: 35%;
+        margin-left: 35%;
+    }
+
+    .info p{
+        margin-top: 5%;
+        margin-left: 14%;
+        width: 75%;
+    }
+
+    .galery img{
+        margin-top: 2%;
+        width: 85%;
+        margin-left: 4%;
+    }
+
+    /*INFORMACION*/
+
+    .fin{
+        height: 320px;
+        
+    }
+
+    .fin h3{
+        margin-top: -62%;
+        width: 85%;
+        margin-left: 5%;
+    }
+
+    .fin a{
+        margin-top: 50%;
+        display: block;
+        font: 100% Arial;
+        width: 8.2%;
+        padding: 15px 30px;
+        text-decoration: none;
+        border: 2px solid black;
+        color: black;
+    }
+
+    .fin a p{
+        margin-left: -17.5px;
+    }
+}
